@@ -84,7 +84,7 @@
           // map for 150 minutes or 2.5 hours
           return {
             start: quake.properties.time,
-            end:   quake.properties.time + quake.properties.mag * 1800000
+            end:   quake.properties.time + quake.properties.deaths * 1800000
           };
         };
         var timelineControl = L.timelineSliderControl({
