@@ -76,7 +76,7 @@
         });
       }
 
-      function eqfeed_callback(data){
+      function data_callback(data){
         var getInterval = function(quake) {
           // earthquake data only has a time, so we'll use that as a "start"
           // and the "end" will be that + some value based on magnitude
@@ -97,9 +97,9 @@
           pointToLayer: function(data, latlng){
             var hue_min = 120;
             var hue_max = 0;
-            var hue = data.properties.mag / 10 * (hue_max - hue_min) + hue_min;
+            var hue = data.properties.deaths / 10 * (hue_max - hue_min) + hue_min;
             return L.circleMarker(latlng, {
-              radius: data.properties.mag * 3,
+              radius: data.properties.deaths * 3,
               color: "hsl("+hue+", 100%, 50%)",
               fillColor: "hsl("+hue+", 100%, 50%)"
             }).bindPopup('<a href="' + data.properties.url + '">click for more info</a>');
