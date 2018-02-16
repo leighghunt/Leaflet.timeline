@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1518742903000,
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+    "title": "USGS All Earthquakes, Past Hour",
+    "status": 200,
+    "api": "1.5.8",
+    "count": 8
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "deaths": 0,
+        "injuries": 1,
+        "place": "Somewhere 1900",
+        "time": -2209035600000,
+        "updated": 1518740562012,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak18437409",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak18437409.geojson",
+        "type": "School Shooting",
+        "title": "Title"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "id": "ak18437409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "deaths": 3,
+        "injuries": 5,
+        "place": "Somewhere 2018",
+        "time": 1518739328628,
+        "updated": 1518740562012,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak18437409",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak18437409.geojson",
+        "type": "School Shooting",
+        "title": "Title"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "id": "ak18437409"
+    }
+  ],
+  "bbox": [
+    -150.0582,
+    -5.7834,
+    2.6,
+    -81.0714,
+    63.5348,
+    128.9
+  ]
+}
